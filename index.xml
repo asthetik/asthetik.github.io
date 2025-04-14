@@ -1,19 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>asthetik&#39;s Blog</title>
-    <link>https://asthetik.github.io/</link>
-    <description>Recent content on asthetik&#39;s Blog</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 14 Apr 2025 15:25:34 +0800</lastBuildDate>
-    <atom:link href="https://asthetik.github.io/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>2025 春夏季操作系统训练营学习笔记</title>
-      <link>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</link>
-      <pubDate>Mon, 14 Apr 2025 15:25:34 +0800</pubDate>
-      <guid>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</guid>
-      <description>&lt;h2 id=&#34;学习笔记&#34;&gt;学习笔记&lt;/h2&gt;&#xA;&lt;h2 id=&#34;2025-04-14&#34;&gt;2025-04-14&lt;/h2&gt;&#xA;&lt;p&gt;学习risc-v手册知识&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>asthetik's Blog</title><link>https://asthetik.github.io/</link><description>Recent content on asthetik's Blog</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Mon, 14 Apr 2025 15:25:34 +0800</lastBuildDate><atom:link href="https://asthetik.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2025 春夏季操作系统训练营学习笔记</title><link>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</link><pubDate>Mon, 14 Apr 2025 15:25:34 +0800</pubDate><guid>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</guid><description>&lt;h2 id="学习笔记">学习笔记&lt;/h2>
+&lt;h2 id="2025-04-14">2025-04-14&lt;/h2>
+&lt;p>学习risc-v手册知识&lt;/p></description></item></channel></rss>
