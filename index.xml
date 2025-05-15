@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>asthetik's blog</title><link>https://asthetik.github.io/</link><description>asthetik's blog</description><follow_challenge><feedId>134629352789888000</feedId><userId>85939835604127744</userId></follow_challenge><generator>Hugo 0.147.3 &amp; FixIt v0.3.18</generator><language>en</language><lastBuildDate>Fri, 16 May 2025 00:14:11 +0800</lastBuildDate><atom:link href="https://asthetik.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>学习 Rust 标准库</title><link>https://asthetik.github.io/posts/rust/learn-the-rust-std/</link><pubDate>Fri, 16 May 2025 00:14:11 +0800</pubDate><guid>https://asthetik.github.io/posts/rust/learn-the-rust-std/</guid><description>&lt;h2 id="智能指针" class="heading-element">&lt;span>智能指针&lt;/span>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>asthetik's blog</title><link>https://asthetik.github.io/</link><description>asthetik's blog</description><follow_challenge><feedId>134629352789888000</feedId><userId>85939835604127744</userId></follow_challenge><generator>Hugo 0.147.3 &amp; FixIt v0.3.20</generator><language>en</language><lastBuildDate>Fri, 16 May 2025 00:14:11 +0800</lastBuildDate><atom:link href="https://asthetik.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>学习 Rust 标准库</title><link>https://asthetik.github.io/posts/rust/learn-the-rust-std/</link><pubDate>Fri, 16 May 2025 00:14:11 +0800</pubDate><guid>https://asthetik.github.io/posts/rust/learn-the-rust-std/</guid><description>&lt;h2 class="heading-element" id="智能指针">&lt;span>智能指针&lt;/span>
  &lt;a href="#%e6%99%ba%e8%83%bd%e6%8c%87%e9%92%88" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;h3 id="cow" class="heading-element">&lt;span>Cow&lt;/span>
+&lt;/h2>&lt;h3 class="heading-element" id="cow">&lt;span>Cow&lt;/span>
  &lt;a href="#cow" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -102,7 +102,7 @@
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">}&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="p">}&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h4 id="qa" class="heading-element">&lt;span>QA&lt;/span>
+&lt;/div>&lt;h4 class="heading-element" id="qa">&lt;span>QA&lt;/span>
  &lt;a href="#qa" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -110,7 +110,7 @@
 &lt;li>如何理解 &lt;code>where [X]: ToOwned&amp;lt;Owned = Vec&amp;lt;X&amp;gt;&amp;gt;&lt;/code>&lt;/li>
 &lt;/ul>
 &lt;p>&lt;code>[X]&lt;/code> 类型实现了 &lt;code>ToOwned&lt;/code> trait，且它的关联类型 &lt;code>Owned&lt;/code> 是 &lt;code>Vec&amp;lt;X&amp;gt;&lt;/code>。&lt;/p>
-&lt;h5 id="背景知识toowned-有何作用" class="heading-element">&lt;span>背景知识：ToOwned 有何作用？&lt;/span>
+&lt;h5 class="heading-element" id="背景知识toowned-有何作用">&lt;span>背景知识：ToOwned 有何作用？&lt;/span>
  &lt;a href="#%e8%83%8c%e6%99%af%e7%9f%a5%e8%af%86toowned-%e6%9c%89%e4%bd%95%e4%bd%9c%e7%94%a8" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -184,7 +184,7 @@
 &lt;li>但是我没有实现 (&amp;amp;readonly[..]).into() 功能，怎么会自动转呢?&lt;/li>
 &lt;/ul>
 &lt;p>确实你&lt;strong>没有显式实现&lt;/strong> &lt;code>(&amp;amp;readonly[..]).into()&lt;/code>，但它**“自动转”&lt;strong>的原因在于：Rust 标准库&lt;/strong>已经为我们提供了这个类型的实现**，它是通过 &lt;code>From&lt;/code> 和 &lt;code>Into&lt;/code> 的 trait 系统完成的。&lt;/p>
-&lt;h5 id="-tldr简要回答" class="heading-element">&lt;span>💡 TL;DR（简要回答）&lt;/span>
+&lt;h5 class="heading-element" id="-tldr简要回答">&lt;span>💡 TL;DR（简要回答）&lt;/span>
  &lt;a href="#-tldr%e7%ae%80%e8%a6%81%e5%9b%9e%e7%ad%94" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -206,7 +206,7 @@
 &lt;/div>
 &lt;/div>&lt;p>这个 trait &lt;strong>已经在标准库里为你实现了&lt;/strong>！&lt;/p>
 &lt;hr>
-&lt;h5 id="-深入解释rust-的-from--into-机制" class="heading-element">&lt;span>🧠 深入解释：Rust 的 &lt;code>From&lt;/code> / &lt;code>Into&lt;/code> 机制&lt;/span>
+&lt;h5 class="heading-element" id="-深入解释rust-的-from--into-机制">&lt;span>🧠 深入解释：Rust 的 &lt;code>From&lt;/code> / &lt;code>Into&lt;/code> 机制&lt;/span>
  &lt;a href="#-%e6%b7%b1%e5%85%a5%e8%a7%a3%e9%87%8arust-%e7%9a%84-from--into-%e6%9c%ba%e5%88%b6" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -242,7 +242,7 @@
 &lt;blockquote>
 &lt;p>如果你实现了 &lt;code>From&amp;lt;T&amp;gt; for U&lt;/code>，你就&lt;strong>自动获得了&lt;/strong> &lt;code>Into&amp;lt;U&amp;gt; for T&lt;/code>！&lt;/p>&lt;/blockquote>
 &lt;hr>
-&lt;h5 id="-回到你的代码" class="heading-element">&lt;span>✅ 回到你的代码：&lt;/span>
+&lt;h5 class="heading-element" id="-回到你的代码">&lt;span>✅ 回到你的代码：&lt;/span>
  &lt;a href="#-%e5%9b%9e%e5%88%b0%e4%bd%a0%e7%9a%84%e4%bb%a3%e7%a0%81" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -262,7 +262,7 @@
 &lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-rust" data-lang="rust">&lt;span class="line">&lt;span class="cl">&lt;span class="o">&amp;amp;&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="kt">i32&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="err">→&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Cow&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="nb">&amp;#39;_&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="kt">i32&lt;/span>&lt;span class="p">]&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;h5 id="-在标准库中" class="heading-element">&lt;span>📦 在标准库中：&lt;/span>
+&lt;/div>&lt;h5 class="heading-element" id="-在标准库中">&lt;span>📦 在标准库中：&lt;/span>
  &lt;a href="#-%e5%9c%a8%e6%a0%87%e5%87%86%e5%ba%93%e4%b8%ad" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -286,7 +286,7 @@
 &lt;/ul>
 &lt;p>于是 &lt;code>.into()&lt;/code> 自动生效！&lt;/p>
 &lt;hr>
-&lt;h5 id="-换个写法用-from-显式写出来" class="heading-element">&lt;span>👇 换个写法：用 &lt;code>.from()&lt;/code> 显式写出来&lt;/span>
+&lt;h5 class="heading-element" id="-换个写法用-from-显式写出来">&lt;span>👇 换个写法：用 &lt;code>.from()&lt;/code> 显式写出来&lt;/span>
  &lt;a href="#-%e6%8d%a2%e4%b8%aa%e5%86%99%e6%b3%95%e7%94%a8-from-%e6%98%be%e5%bc%8f%e5%86%99%e5%87%ba%e6%9d%a5" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -308,11 +308,11 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-rust" data-lang="rust">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">let&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">borrowed&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Items&lt;/span>::&lt;span class="n">new&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Cow&lt;/span>::&lt;span class="n">from&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">readonly&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">..&lt;/span>&lt;span class="p">]));&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="kd">let&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">borrowed&lt;/span>: &lt;span class="nc">Items&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="kt">i32&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Items&lt;/span>::&lt;span class="n">new&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Cow&lt;/span>::&lt;span class="n">Borrowed&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">readonly&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">..&lt;/span>&lt;span class="p">]));&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>所以 &lt;code>.into()&lt;/code> 只是调用了 &lt;code>Cow::from(...)&lt;/code> 的语法糖。&lt;/p></description></item><item><title>2025 春夏季操作系统训练营学习笔记</title><link>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</link><pubDate>Mon, 14 Apr 2025 15:25:34 +0800</pubDate><guid>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</guid><description>&lt;h2 id="学习笔记" class="heading-element">&lt;span>学习笔记&lt;/span>
+&lt;/div>&lt;p>所以 &lt;code>.into()&lt;/code> 只是调用了 &lt;code>Cow::from(...)&lt;/code> 的语法糖。&lt;/p></description></item><item><title>2025 春夏季操作系统训练营学习笔记</title><link>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</link><pubDate>Mon, 14 Apr 2025 15:25:34 +0800</pubDate><guid>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</guid><description>&lt;h2 class="heading-element" id="学习笔记">&lt;span>学习笔记&lt;/span>
  &lt;a href="#%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
-&lt;/h2>&lt;h2 id="2025-04-14" class="heading-element">&lt;span>2025-04-14&lt;/span>
+&lt;/h2>&lt;h2 class="heading-element" id="2025-04-14">&lt;span>2025-04-14&lt;/span>
  &lt;a href="#2025-04-14" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
