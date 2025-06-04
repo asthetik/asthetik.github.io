@@ -1,4 +1,4 @@
-# 学习 Rust 标准库
+# 
 
 ## 智能指针
 
@@ -131,10 +131,6 @@ let borrowed: Cow<[i32]> = Cow::Borrowed(&readonly[..]);
 你能写 `.into()` 是因为：
 
 ```
-rust
-
-
-CopyEdit
 impl<'a, T: ToOwned + ?Sized> From<&'a T> for Cow<'a, T>
 ```
 
@@ -147,10 +143,6 @@ impl<'a, T: ToOwned + ?Sized> From<&'a T> for Cow<'a, T>
 Rust 有两个紧密关联的 trait：
 
 ```
-rust
-
-
-CopyEdit
 trait From<T> {
     fn from(value: T) -> Self;
 }
@@ -216,6 +208,7 @@ let borrowed: Items<i32> = Items::new(Cow::Borrowed(&readonly[..]));
 ```
 
 所以 `.into()` 只是调用了 `Cow::from(...)` 的语法糖。
+
 
 ---
 

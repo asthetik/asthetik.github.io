@@ -1,4 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>asthetik's blog</title><link>https://asthetik.github.io/</link><description>asthetik's blog</description><follow_challenge><feedId>134629352789888000</feedId><userId>85939835604127744</userId></follow_challenge><generator>Hugo 0.147.7 &amp; FixIt v0.3.20</generator><language>en</language><lastBuildDate>Fri, 16 May 2025 00:14:11 +0800</lastBuildDate><atom:link href="https://asthetik.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>学习 Rust 标准库</title><link>https://asthetik.github.io/posts/rust/learn-the-rust-std/</link><pubDate>Fri, 16 May 2025 00:14:11 +0800</pubDate><guid>https://asthetik.github.io/posts/rust/learn-the-rust-std/</guid><description>&lt;h2 class="heading-element" id="智能指针">&lt;span>智能指针&lt;/span>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>asthetik's blog</title><link>https://asthetik.github.io/</link><description>asthetik's blog</description><follow_challenge><feedId>134629352789888000</feedId><userId>85939835604127744</userId></follow_challenge><generator>Hugo 0.147.7 &amp; FixIt v0.3.20</generator><language>en</language><lastBuildDate>Mon, 14 Apr 2025 15:25:34 +0800</lastBuildDate><atom:link href="https://asthetik.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>2025 春夏季操作系统训练营学习笔记</title><link>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</link><pubDate>Mon, 14 Apr 2025 15:25:34 +0800</pubDate><guid>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</guid><description>&lt;h2 class="heading-element" id="学习笔记">&lt;span>学习笔记&lt;/span>
+ &lt;a href="#%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;h2 class="heading-element" id="2025-04-14">&lt;span>2025-04-14&lt;/span>
+ &lt;a href="#2025-04-14" class="heading-mark">
+ &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
+ &lt;/a>
+&lt;/h2>&lt;p>学习risc-v手册知识&lt;/p></description></item><item><title/><link>https://asthetik.github.io/posts/rust/learn-the-rust-std/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://asthetik.github.io/posts/rust/learn-the-rust-std/</guid><description>&lt;h2 class="heading-element" id="智能指针">&lt;span>智能指针&lt;/span>
  &lt;a href="#%e6%99%ba%e8%83%bd%e6%8c%87%e9%92%88" class="heading-mark">
  &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
  &lt;/a>
@@ -192,17 +200,9 @@
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
 &lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
-&lt;/span>&lt;span class="lnt">2
-&lt;/span>&lt;span class="lnt">3
-&lt;/span>&lt;span class="lnt">4
-&lt;/span>&lt;span class="lnt">5
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">rust
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CopyEdit
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">impl&amp;lt;&amp;#39;a, T: ToOwned + ?Sized&amp;gt; From&amp;lt;&amp;amp;&amp;#39;a T&amp;gt; for Cow&amp;lt;&amp;#39;a, T&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">impl&amp;lt;&amp;#39;a, T: ToOwned + ?Sized&amp;gt; From&amp;lt;&amp;amp;&amp;#39;a T&amp;gt; for Cow&amp;lt;&amp;#39;a, T&amp;gt;&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
 &lt;/div>&lt;p>这个 trait &lt;strong>已经在标准库里为你实现了&lt;/strong>！&lt;/p>
 &lt;hr>
@@ -213,24 +213,16 @@
 &lt;/h5>&lt;p>Rust 有两个紧密关联的 trait：&lt;/p>
 &lt;div class="highlight">&lt;div class="chroma">
 &lt;table class="lntable">&lt;tr>&lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt"> 1
-&lt;/span>&lt;span class="lnt"> 2
-&lt;/span>&lt;span class="lnt"> 3
-&lt;/span>&lt;span class="lnt"> 4
-&lt;/span>&lt;span class="lnt"> 5
-&lt;/span>&lt;span class="lnt"> 6
-&lt;/span>&lt;span class="lnt"> 7
-&lt;/span>&lt;span class="lnt"> 8
-&lt;/span>&lt;span class="lnt"> 9
-&lt;/span>&lt;span class="lnt">10
-&lt;/span>&lt;span class="lnt">11
+&lt;pre tabindex="0" class="chroma">&lt;code>&lt;span class="lnt">1
+&lt;/span>&lt;span class="lnt">2
+&lt;/span>&lt;span class="lnt">3
+&lt;/span>&lt;span class="lnt">4
+&lt;/span>&lt;span class="lnt">5
+&lt;/span>&lt;span class="lnt">6
+&lt;/span>&lt;span class="lnt">7
 &lt;/span>&lt;/code>&lt;/pre>&lt;/td>
 &lt;td class="lntd">
-&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">rust
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">CopyEdit
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">trait From&amp;lt;T&amp;gt; {
+&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">trait From&amp;lt;T&amp;gt; {
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> fn from(value: T) -&amp;gt; Self;
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">}
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
@@ -308,12 +300,4 @@
 &lt;pre tabindex="0" class="chroma">&lt;code class="language-rust" data-lang="rust">&lt;span class="line">&lt;span class="cl">&lt;span class="kd">let&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">borrowed&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Items&lt;/span>::&lt;span class="n">new&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Cow&lt;/span>::&lt;span class="n">from&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">readonly&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">..&lt;/span>&lt;span class="p">]));&lt;/span>&lt;span class="w">
 &lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="kd">let&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">borrowed&lt;/span>: &lt;span class="nc">Items&lt;/span>&lt;span class="o">&amp;lt;&lt;/span>&lt;span class="kt">i32&lt;/span>&lt;span class="o">&amp;gt;&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="n">Items&lt;/span>::&lt;span class="n">new&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">Cow&lt;/span>::&lt;span class="n">Borrowed&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="o">&amp;amp;&lt;/span>&lt;span class="n">readonly&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="o">..&lt;/span>&lt;span class="p">]));&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/td>&lt;/tr>&lt;/table>
 &lt;/div>
-&lt;/div>&lt;p>所以 &lt;code>.into()&lt;/code> 只是调用了 &lt;code>Cow::from(...)&lt;/code> 的语法糖。&lt;/p></description></item><item><title>2025 春夏季操作系统训练营学习笔记</title><link>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</link><pubDate>Mon, 14 Apr 2025 15:25:34 +0800</pubDate><guid>https://asthetik.github.io/posts/2025-spring-and-summer-operating-system-training-camp/</guid><description>&lt;h2 class="heading-element" id="学习笔记">&lt;span>学习笔记&lt;/span>
- &lt;a href="#%e5%ad%a6%e4%b9%a0%e7%ac%94%e8%ae%b0" class="heading-mark">
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
- &lt;/a>
-&lt;/h2>&lt;h2 class="heading-element" id="2025-04-14">&lt;span>2025-04-14&lt;/span>
- &lt;a href="#2025-04-14" class="heading-mark">
- &lt;svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true">&lt;path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z">&lt;/path>&lt;/svg>
- &lt;/a>
-&lt;/h2>&lt;p>学习risc-v手册知识&lt;/p></description></item></channel></rss>
+&lt;/div>&lt;p>所以 &lt;code>.into()&lt;/code> 只是调用了 &lt;code>Cow::from(...)&lt;/code> 的语法糖。&lt;/p></description></item></channel></rss>
